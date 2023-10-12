@@ -1,0 +1,25 @@
+img{
+    width:200px;
+    height: 200px;
+    padding: 22.5px;
+}
+h1,p{
+    text-align: center;
+    font-weight: 800;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: rgb(113, 7, 218);
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+a:hover{
+    background-color: rgba(72, 68, 68, 0.371);
+    box-shadow: 3px 1px 4px;
+}

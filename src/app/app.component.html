@@ -1,0 +1,15 @@
+<!-- header -->
+<app-header (toggle)="sideBarOpen()"></app-header>
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" [opened]="sidebar">
+    <!-- sidebar -->
+    <app-side-bar>
+    </app-side-bar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <!-- maincontent -->
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+<!-- footer -->
+<app-footer></app-footer>
